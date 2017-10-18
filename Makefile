@@ -10,7 +10,7 @@ start: build
 	cd build && browser-sync start --server --files . --reload-delay 300
 
 setup:
-	elm-github-install 
+	elm-github-install
 	bower install
 
 install:

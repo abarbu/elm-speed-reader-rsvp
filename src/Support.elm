@@ -62,7 +62,7 @@ type alias ZipEntry = { filename : String
                       , data : String
                       , datatype : String }
 type alias Zip = List ZipEntry
-        
+
 -- Call & return for js
 port jszip_load : FileContentArrayBuffer -> Cmd msg
 port jszip_loaded : (Zip -> msg) -> Sub msg
