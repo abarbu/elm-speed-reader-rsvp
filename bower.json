@@ -1,0 +1,30 @@
+{
+  "name": "elm",
+  "authors": [
+    "Andrei Barbu <andrei@0xab.com>"
+  ],
+  "description": "",
+  "main": [
+    "build/index.html",
+    "build/main.js"
+  ],
+  "license": "Private",
+  "homepage": "http://0xab.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "directory": "build/components",
+  "dependencies": {
+    "jquery": "^3.2.1",
+    "jszip": "^3.1.4",
+    "localforage": "^1.5.0",
+    "jquery-xpath": "^0.3.1",
+    "bootstrap": "v4.0.0-alpha.6",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}
